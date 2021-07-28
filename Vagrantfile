@@ -6,7 +6,7 @@ vms = {
   'database' => {'memory' => '512', 'cpus' => 1, 'ip' => '103', 'box' => 'centos/7', 'provision' => 'database.sh'},
   'docker' => {'memory' => '1024', 'cpus' => 1, 'ip' => '105', 'box' => 'ubuntu/bionic64', 'provision' => 'docker.sh'},
  'lab-gamification'=> {'memory' => '2014', 'cpus' => 1, 'ip' => '110', 'box' => 'centos/7', 'provision' => 'lab-gamification.sh'},
-  'ntp-log-server' => {'memory' => '1024', 'cpus' => 1, 'ip' => '104', 'box' => 'debian/stretch64', 'provision' => 'ntp.sh'},
+  'ntp-log' => {'memory' => '1024', 'cpus' => 1, 'ip' => '104', 'box' => 'debian/stretch64', 'provision' => 'ntp.sh'},
   'security'=> {'memory' => '512', 'cpus' => 1, 'ip' => '101', 'box' => 'debian/stretch64', 'provision' => 'security.sh'},
   'storage' => {'memory' => '512', 'cpus' => 1, 'ip' => '102', 'box' => 'centos/7', 'provision' => 'storage.sh'}
 }
